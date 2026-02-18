@@ -1,0 +1,13 @@
+venv/
+.env
+__pycache__/
+*.pyc
+logs/
+!logs/.gitkeep
+# Agent-created tools are generated at runtime and should not be committed
+tools/*/
+!tools/.gitkeep
+agent_status.json
+agent_inbox.json
+restart_state.json
+.DS_Store
